@@ -1,0 +1,3 @@
+mvn clean package dependency:copy-dependencies
+cd target
+java -jar 01-spring-hello-world-1.0-SNAPSHOT.jar
